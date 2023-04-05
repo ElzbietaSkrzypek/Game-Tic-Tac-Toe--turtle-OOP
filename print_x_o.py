@@ -9,7 +9,7 @@ class PrintX(Turtle):
         self.goto(position)
         self.hideturtle()
         self.pencolor("#263159")
-        self.write(f"X", align="center", font=('Arial', 20, 'bold'))
+        self.write(f"X", align="center", font=('Arial', 50, 'bold'))
 
 
 class PrintO(Turtle):
@@ -20,4 +20,4 @@ class PrintO(Turtle):
         self.goto(position)
         self.hideturtle()
         self.pencolor("#9D3C72")
-        self.write(f"O", align="center", font=('Arial', 20, 'bold'))
+        self.write(f"O", align="center", font=('Arial', 50, 'bold'))
