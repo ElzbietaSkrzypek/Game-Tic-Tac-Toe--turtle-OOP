@@ -3,7 +3,7 @@ from print_x_o import PrintO, PrintX
 from game_over import GameOver
 
 ALIGMENT = "center"
-FONT = ('Courier', 50, 'bold')
+FONT = ('Arial', 50, 'bold')
 
 screen = turtle.Screen()
 screen.setup(width=500, height=420)
@@ -48,16 +48,16 @@ def get_mouse_clicked_cor(x, y):
         y_cor = 100
         a = 0
     if (-82) < y < 64:
-        y_cor = (-15)
+        y_cor = (-40)
         a = 1
     if y < (-82):
-        y_cor = (-140)
+        y_cor = (-180)
         a = 2
     if x < (-64):
-        x_cor = (-100)
+        x_cor = (-140)
         b = 0
     elif x > 81:
-        x_cor = 140
+        x_cor = 150
         b = 2
     else:
         x_cor = 10
